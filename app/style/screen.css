@@ -1,0 +1,46 @@
+body {
+	color: #666;
+	font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+footer,
+header,
+nav {
+	clear: both;
+	overflow: hidden;
+}
+
+nav {
+	-webkit-app-region: drag;
+	background-color: #666;
+	padding: 4px 10px 0 6px;
+}
+
+nav a {
+	-webkit-app-region: no-drag;
+	color: #fff;
+}
+
+nav ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	margin: 10px 0 0 20px;
+	width: auto;
+}
+
+nav .icon {
+	fill: #fff;
+	height: 1.15em;
+	width: 1.15em;
+}
+
+section {
+	padding: 10px;
+}
