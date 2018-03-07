@@ -9,3 +9,7 @@ A simple Electron app that allows you to authenticate to a website and then down
 npm install electron --save-dev --save-exact
 npm install --global electron-download
 ```
+
+## TODO
+
+- Files URLs are assumed to be well-formed
