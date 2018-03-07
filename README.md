@@ -1,5 +1,6 @@
 # ElectronIdea
 
+A simple Electron app that allows you to authenticate to a website and then download multiple files from it.
 
 
 ## Dependencies
