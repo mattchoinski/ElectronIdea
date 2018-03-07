@@ -12,4 +12,4 @@ npm install --global electron-download
 
 ## TODO
 
-- Files URLs are assumed to be well-formed
+- URLs of files are assumed to be well-formed
