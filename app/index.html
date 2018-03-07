@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Electron Idea</title>
-    <link href="./style/new.css" rel="stylesheet">
-    <script src="browser.js"></script>
+    <link href="./style/screen.css" rel="stylesheet">
+    <script src="./script/script.js"></script>
   </head>
   <body>
     <svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -27,11 +27,11 @@
       <div class="columns two offset">
         <section>
           <h1>Browse</h1>
-          <form style="border-bottom: 2px solid #333;">
+          <form id="webview_form" onsubmit="event.preventDefault();">
             <fieldset>
               <ol>
-                <li><input class="large" style="width: 90%;" type="text" value="https://www.choinski.net/" /></li>
-                <li style="float: right;"><button><svg class="icon icon-chevron-circle-right"><use xlink:href="#icon-chevron-circle-right"></use></svg</button></li>
+                <li><input id="webview_input" type="text" value="https://www.choinski.net/" /></li>
+                <li><button id="webview_button"><svg class="icon icon-chevron-circle-right"><use xlink:href="#icon-chevron-circle-right"></use></svg</button></li>
               </ol>
             </fieldset>
           </form>
