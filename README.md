@@ -12,4 +12,5 @@ npm install --global electron-download
 
 ## TODO
 
+- File contains one URL on a line
 - URLs of files are assumed to be well-formed
